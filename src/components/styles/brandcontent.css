@@ -1,0 +1,29 @@
+.nonfiction-container{
+    width: 100%;
+    height: auto;
+  }
+
+  .brandcontent {
+    display: flex;
+    background-image: url('../../images/pages/brandingcontent.jpg');
+    background-position: center top 20%; /* Adjusted background position */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+  .main-brandcontent {
+    width: 75%;
+    float: left;
+    padding: 30px;
+  }
+  .menu-ghost {
+    width: 25%;
+    float: left;
+    padding: 280px;
+  }
+  .main-header-brandcontent{
+    color: rgb(41, 41, 98);
+    font-size: 65px;
+    padding: 10px 0px;
+  }

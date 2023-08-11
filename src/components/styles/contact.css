@@ -1,0 +1,189 @@
+.ghostwriting-container{
+    width: 100%;
+    height: auto;
+  }
+
+  .contact {
+    display: flex;
+    background-image: url('../../images/contact.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 340px;
+  }
+
+  .main-contact {
+    width: 75%;
+    float: left;
+    padding: 150px;
+  }
+  .main-header-copy{
+    color: rgb(41, 41, 98);
+    font-size: 65px;
+    text-align: center;
+  }
+
+  .contact-second{
+    margin: 90px;
+  }
+  .kick-second{
+    padding-bottom: 14px;
+  }
+  .contact-head{
+    text-align: start;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(41, 41, 98);
+  }
+.contact-span{
+  color: rgb(41, 41, 98);
+}
+
+
+
+
+
+
+
+.shadow {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+}
+.contact-kick form div {
+  display: flex;
+}
+.contact-kick textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contact-kick input {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.contact-kick form {
+  padding: 30px;
+}
+
+.submit-button {
+  background-color: rgb(41, 41, 98); /* Green background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show a hand cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Add a hover effect */
+.submit-button:hover {
+  background-color: rgb(76, 157, 197); /* Darker green background color on hover */
+}
+
+
+@media screen and (max-width: 768px) {
+  .ontact-kick form div {
+    flex-direction: column;
+  }
+  .ontact-kick input {
+    width: 100%;
+  }
+}
+
+
+
+
+
+  .btn{
+    top: 90px;
+    background-color: rgb(41, 41, 98); /* Green */
+    border: none;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .btn-ghost-one{
+    background-color:rgb(41, 41, 98);
+    color: white;
+    margin: 10px;
+  }
+
+  .btn:hover {
+    background-color: rgb(76, 157, 197);
+    color: white;
+    border: none;
+  }
+
+  
+  .contact-below {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .contact-location, .contact-info {
+    padding-left: 150px;
+    display: inline-block;
+    width: 48%; /* Adjust the width as needed */
+  }
+
+.contact-all-head{
+  color: rgb(41, 41, 98);
+  font-size: 33px;
+}
+
+.con-foot{
+  color: rgb(76, 157, 197);
+}
+
+
+.newsletter-head {
+  background-color: #3b5998;
+  padding: 40px 0 120px 0;
+  color: #fff;
+}
+.newsletter-head  h5 {
+text-align: center;
+font-size: 40px;
+padding-top: 50px;
+}
+.news-text{
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(19, 19, 70);
+  font-size: 20px;
+}
+.news-text p{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.newsletter-btn{
+  position: relative;
+  left: 510px;
+  background-color: rgb(76, 157, 197);
+  border: none;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.newsletter-btn:hover{
+ background-color: red;
+ color: white;
+}

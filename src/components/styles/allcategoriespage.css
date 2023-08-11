@@ -1,0 +1,59 @@
+.all-container{
+    width: 100%;
+    height: auto;
+  }
+
+  .all-back {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black; /* Set the default color to black */
+    transition: color 0.3s, background-color 0.3s;
+    padding: 30px; /* Add transition for smooth effect */
+  }
+  
+
+  .fa-solid {
+    font-size: 24px;
+  }
+  
+  .back-text {
+    font-size: 18px;
+    margin: 0;
+  }
+  .back-text:hover {
+    font-size: 18px;
+    margin: 0;
+    color: rgb(76, 157, 197);
+  }
+  
+  .all-body{
+    background-color: rgb(203, 196, 196);
+    padding: 50px;
+  }
+
+  .all-date{
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .all-topic{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .all-pic{
+    position: relative;
+    width: 900px;
+    height: 700px;
+    padding-top: 30px;
+    padding-left: 200px;
+    
+  }
+
+  .all-fulldesc{
+    padding: 40px;
+  }

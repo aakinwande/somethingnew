@@ -1,0 +1,154 @@
+
+.footer{
+    background-color: rgb(41, 41, 98);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.top{
+    padding-top: 20px;
+    padding-bottom: 20xpx;
+}
+.bottom{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+a{
+    color:  rgb(130, 159, 124);
+    text-decoration: none;
+}
+
+
+
+
+
+
+.top-container-footer{
+    padding: 4rem 4rem;
+    background: rgb(232, 228, 228);
+    color: rgb(41, 41, 98);
+}
+
+.top-footer{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top-footer i {
+    color: #fff;
+    font-size: 5rem;
+    margin-left: 1rem;
+}
+
+.top-footer i:hover {
+    color: #01959a;
+}
+
+.top-footer-header{
+    color: rgb(41, 41, 98);;
+}
+.top-footer-bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top-footer-bottom div{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-footer-bottom h4{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+    color: rgb(41, 41, 98);
+}
+
+.top-footer-bottom a{
+    text-decoration: none;
+    color: rgb(41, 41, 98);
+    padding-bottom: 0.4rem;
+    font-size: 16px;
+}
+.top-footer-bottom a:hover{
+    transform: translateY(-3px);
+}
+.a-item:hover{
+    color: rgb(76, 157, 197);
+}
+
+
+
+.top-container-footer-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(216, 215, 215);
+    padding: 10px 60px;
+  }
+  
+  /* Style for each div inside the top-footer-bottom-down */
+  .top-footer-bottom-down > div {
+    flex-basis: 25%;
+    padding: 10px;
+  }
+
+  .con-foot-down{
+    color: rgb(76, 157, 197);
+    color: black;
+    padding-top: 30px;
+  }
+
+.top-footer-bottom-down{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 0px 110px;
+
+}
+.con-foot-down{
+    padding-right: 200px;
+}
+
+.footer-img {
+    position: relative;
+    width: 300px; /* Adjust the width as needed for a bigger size */
+    height: 130px;
+    left: -160px; /* Maintain aspect ratio */
+  }
+
+
+
+  @media (max-width: 768px) {
+    .top-footer-bottom-down > div {
+      flex-basis: 50%;
+    }
+  }
+  
+  /* Optional: Adjust the flex-basis value as needed for spacing and responsiveness */
+  @media (max-width: 480px) {
+    .top-footer-bottom-down > div {
+      flex-basis: 100%;
+    }
+  }
+  
+@media screen and (max-width: 960px){
+
+    .footer{
+        padding: 4rem 2rem;
+    }
+
+    .footer i{
+        margin: 1rem 1rem 0 0;
+    } 
+
+    .bottom div{
+        width: 50% ;
+    }
+    
+}

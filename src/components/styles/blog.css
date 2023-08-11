@@ -1,0 +1,71 @@
+.blog-container{
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .blog {
+    display: flex;
+    background-image: url('../../images/blogpics/KTNBlog.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .main-blog {
+    width: 75%;
+    float: left;
+    padding: 150px;
+  }
+  
+  .blog-second{
+    margin: 70px;
+  }
+  .blog-second{
+    padding-bottom: 14px;
+      display: flex;
+    justify-content: center;
+  }
+  .selected-title{
+    text-align: center;
+  }
+ 
+/* Style for the select element */
+.blog-select {
+    position: absolute;
+    left: 905px;
+    bottom: 110px;
+  padding: 12px;
+  border: 2px solid rgb(41, 41, 98); /* Add a 2px solid border with a color of your choice */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  max-width: 300px; /* Adjust the width as needed */
+}
+
+.blog-select:hover {
+    border-color: rgb(76, 157, 197); /* Add a subtle box-shadow on hover */
+    cursor: pointer;
+    color: rgb(76, 157, 197); /* Change the cursor to a pointer on hover */
+  }
+
+/* Style for the options */
+.blog-value {
+  font-size: 16px;
+  background-color: rgb(76, 157, 197);
+  color: white;
+  padding: 60px;
+  
+}
+
+/* Hover effect for options */
+.blog-value:hover {
+  background-color: rgb(41, 41, 98);
+}
+
+/* Selected option style */
+.blog-select option:checked {
+  background-color: rgb(41, 41, 98);
+  color: #fff;
+}

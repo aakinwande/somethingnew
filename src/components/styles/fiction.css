@@ -1,0 +1,28 @@
+.fiction-container{
+    width: 100%;
+    height: auto;
+  }
+
+  .fiction {
+    display: flex;
+    background-image: url('../../images/pages/fiction.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .main-fiction {
+    width: 75%;
+    float: left;
+    padding: 30px;
+  }
+  .menu-ghost {
+    width: 25%;
+    float: left;
+    padding: 280px;
+  }
+  .main-header-fiction{
+    color: rgb(79, 79, 136);
+    font-size: 65px;
+    padding: 10px 0px;
+  }

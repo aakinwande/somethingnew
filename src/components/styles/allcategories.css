@@ -1,0 +1,75 @@
+
+.allcategories{
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    color: black;
+  }
+  .allcategories-topic{
+    color: black;
+    text-align: start;
+    padding-left: 7px;
+ }
+  .allcategories-desc{
+    
+    text-align: justify;
+    padding-left: 8px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(103, 101, 101);
+ }
+  .allcategories-params{
+    color: black;
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .allcategories-params i {
+    /* Add styles to change the color of the icon */
+    color: #999;
+    font-size: 12px; /* Change to the desired font size */
+    vertical-align: middle; /* Align the icon vertically with the text */
+    margin-left: 5px; /* Change to the desired icon color */
+}
+.allcategories-params:hover{
+    transform: scale(1.9);
+  }
+  
+  
+  .allcategories-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .allcategories-item {
+    flex: 0 0 calc(33.33% - 20px); /* Three items per row with a small gap between them */
+    margin: 10px;
+    padding: 15px;
+    /* Additional styling for each item */
+  }
+   
+
+  .allcategories-image {
+    width: 280px;
+    height: 210px;
+    position: relative;
+    /* Other styles you might have */
+    transition: transform 0.3s ease; /* Adding a smooth transition effect */
+}
+
+.allcategories-image:hover {
+    transform: scale(1.1); /* Enlarging the image on hover */
+    /* Additional styles you might want to apply on hover */
+}
+
+  
+  h4{
+    margin: 0;
+  }
+  
+  .text-allcategories {
+    font-size: 14px;
+    color: #666;
+  }

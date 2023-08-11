@@ -1,0 +1,27 @@
+.services-container{
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .services {
+    display: flex;
+    background-image: url('../../images/ghostwritinghero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .main-services {
+    width: 75%;
+    float: left;
+    padding: 150px;
+  }
+  .services-header{
+    color: rgb(41, 41, 98);
+    font-size: 65px;
+    position: relative;
+    left: 340px;
+  }
+  
+  

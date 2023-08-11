@@ -1,0 +1,32 @@
+.business-container{
+    width: 100%;
+    height: auto;
+  }
+  
+  .business {
+    display: flex;
+    background-image: url('../../images/new.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-business {
+    width: 75%;
+    float: left;
+    padding: 30px;
+  }
+  .menu {
+    width: 25%;
+    float: left;
+    padding: 280px;
+  }
+  .main-header{
+    color: rgb(41, 41, 98);
+    font-size: 65px;
+    padding: 10px 0px;
+  }
+  .para-business{
+    color: rgb(65, 61, 61);
+    font-size: 20px;
+    padding-bottom: 12px;
+  }

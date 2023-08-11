@@ -1,0 +1,65 @@
+.dropdown-menu {
+  background: rgb(41, 41, 98);
+  width: 600;
+  height: 310px;
+  position: absolute;
+  top: 80px;
+  right: 150px;
+  list-style: none;
+  text-align: start;
+  display: flex; /* Use flexbox to make the menu horizontal */
+  flex-direction: row; /* Arrange the items in a row */
+}
+
+.dropdown-menu li {
+  cursor: pointer;
+  flex-grow: 3; /* Make each item take equal space within the container */
+  text-align: center;
+  color: white; /* Optionally, center the text horizontally */
+}
+
+/* .dropdown-menu li:hover {
+  background: #5cabff;
+} */
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+.secondrop{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  color: whitesmoke;
+}
+.second-list{
+  text-align: right;
+  color: white;
+}
+
+.list-items{
+  color: white;
+  font-size: 15px;
+}
+.list-items:hover{
+  color: rgb(76, 157, 197);
+}
+.header-dropdown{
+  color: rgb(76, 157, 197);
+  font-weight: bold;
+}
+.header-dropdown:hover{
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
+  }
+}

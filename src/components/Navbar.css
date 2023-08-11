@@ -1,0 +1,213 @@
+.navbar {
+  background-image: url('../images/pages/hero.jpg');
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+  background-position: right top -6px;
+  background-attachment: scroll;
+  height: 80px; 
+  display: flex;
+  justify-content: space-between; 
+  font-size: 1.2rem;
+  position: sticky; 
+  top: 0; 
+  z-index: 100; 
+  padding: 0 20px; 
+}
+
+.menu-icon {
+  display: none;
+}
+
+.navbar-logo {
+  justify-self: start;
+  margin-left: 250px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.logo-img {
+  position: absolute;
+  top: -15px; /* Move the image up by 10 pixels */
+  left: -1%;
+  width: 360px;
+  height: 110px;
+  z-index: 10; /* Set a higher z-index to make it cover anything above */
+}
+
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Increase the gap between menu items */
+  list-style: none;
+  margin: 0;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: rgb(41, 41, 98);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 1.8rem 0 2rem 3rem;
+  position: relative;
+  float: left;
+  /* top: 30%;
+  left: 50%;  */
+}
+
+.nav-links::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 30px; /* Position the underline slightly below the link */
+  width: 100%;
+  height: 2px;
+  background-color: darkblue;
+  transform: scaleX(0); /* Start with no underline */
+  transform-origin: left; /* Anchor point of the underline to the left */
+  transition: transform 0.9s ease; /* Smooth transition with 0.9s duration */
+}
+
+.nav-links:hover::after {
+  transform: scaleX(1); /* Fully underline on hover */
+}
+
+.fa-bars {
+  color: rgb(41, 41, 98);
+  font-size: 1.5rem;
+  cursor: pointer; /* Add cursor pointer on the menu icon */
+}
+
+.navbar-top-icons {
+  display: flex;
+  align-items: center; /* Vertically align the icons */
+  gap: 10px; /* Adjust the gap between the icons */
+}
+
+.navbar-top-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3b5998;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-top-icon i {
+  line-height: 1;
+}
+
+.navbar-top-icon:hover {
+  background-color: #4267b2; /* Change the background color on hover */
+}
+
+/* Add a subtle scale effect on hover */
+.navbar-top-icon:hover i {
+  transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 600px) {
+ 
+  .NavbarItems {
+    position: relative;
+  }
+
+  .navbar{
+    background-color: white;
+    background-image: none;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    
+  
+  }
+
+  
+  .logo-img {
+    position: absolute;
+    top: -10px; /* Move the image up by 10 pixels */
+    left: -270px;
+    width: 450px;
+    height: 110px;
+  }
+
+  .nav-menu.active {
+    background: white;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 5rem;
+    width: 100%;
+    display: table;
+    color: rgb(41, 41, 98);
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: black;
+    font-size: 2rem;
+  }
+  .navbar-top-icons {
+   display: none;
+  }
+/* 
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background:red;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #1888ff;
+    transition: 250ms;
+  } */
+
+}

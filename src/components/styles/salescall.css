@@ -1,0 +1,29 @@
+.nonfiction-container{
+    width: 100%;
+    height: auto;
+  }
+
+  .salescall {
+    display: flex;  
+    background-image: url('../../images/pages/salescall.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+  .main-salescall {
+    width: 75%;
+    float: left;
+    padding: 30px;
+  }
+  .menu-ghost {
+    width: 25%;
+    float: left;
+    padding: 280px;
+  }
+  .main-header-salescall{
+    color: rgb(41, 41, 98);
+    font-size: 65px;
+    padding: 10px 0px;
+  }

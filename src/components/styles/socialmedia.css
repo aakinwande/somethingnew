@@ -1,0 +1,28 @@
+.socialmedia-container{
+    width: 100%;
+    height: auto;
+  }
+
+  .socialmedia {
+    display: flex;
+    background-image: url('../../images/pages/socialmedia.jpg');
+    background-position: center top 40%; /* Adjusted background position */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .main-socialmedia {
+    width: 75%;
+    float: left;
+    padding: 30px;
+  }
+  .menu-ghost {
+    width: 25%;
+    float: left;
+    padding: 280px;
+  }
+  .main-header-socialmedia{
+    color: rgb(79, 79, 136);
+    font-size: 65px;
+    padding: 10px 0px;
+  }
